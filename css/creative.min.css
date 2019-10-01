@@ -10786,6 +10786,23 @@ header.masthead h1 {
     font-size: 2.25rem
 }
 
+@media (min-width:512px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 72px;
+        padding-bottom: 0
+    }
+
+
+@media (min-width:768px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 72px;
+        padding-bottom: 0
+    }
+
 @media (min-width:992px) {
     header.masthead {
         height: 100vh;
@@ -10793,6 +10810,7 @@ header.masthead h1 {
         padding-top: 72px;
         padding-bottom: 0
     }
+    
 
     header.masthead p {
         font-size: 1.15rem
@@ -10854,6 +10872,13 @@ header.masthead h1 {
     background-color: #F04732;
     color: white;
     
+  }
+
+  @media (min-width: 512px) {
+      #services{
+        background-color: #F04732;
+        color: white;
+      }
   }
 
   #nossahistoria{
