@@ -10696,8 +10696,8 @@ hr.light {
 
 #mainNav {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-    background-color: #fff;
-    transition: background-color .2s ease
+    background-color: transparent;
+    /* transition: background-color .2s ease */
 }
 
 #mainNav .navbar-brand {
@@ -10743,7 +10743,7 @@ hr.light {
     }
 
     #mainNav .navbar-nav .nav-item .nav-link:hover {
-        color: #fff
+        color: #000
     }
 
     #mainNav .navbar-nav .nav-item:last-child .nav-link {
@@ -10752,7 +10752,7 @@ hr.light {
 
     #mainNav.navbar-scrolled {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-        background-color: #fff
+        background-color: rgba(0, 0, 0, .3)
     }
 
     #mainNav.navbar-scrolled .navbar-brand {
@@ -10764,11 +10764,11 @@ hr.light {
     }
 
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-        color: #212529
+        color: #fff
     }
 
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-        color: #f4623a
+        color: #640000
     }
 }
 
