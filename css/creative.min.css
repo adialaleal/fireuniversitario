@@ -10883,7 +10883,7 @@ header.masthead h1 {
 
   @media (min-width: 512px) {
       #services{
-        background-color: #640000;
+        background-color: #640000 !important;
         color: white;
       }
   }
