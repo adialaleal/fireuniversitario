@@ -8256,7 +8256,12 @@ button.bg-dark:hover {
 
 .mb-4,
 .my-4 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1.5rem !important;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 56px;
+    font-color: white;
+
+
 }
 
 .ml-4,
@@ -10870,7 +10875,7 @@ header.masthead h1 {
 }
 
 #services{
-    background-color: #F04732;
+    background-color: #640000 !important;
     color: white;
     
   }
