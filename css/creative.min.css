@@ -10,6 +10,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  @import url("https://use.typekit.net/afb6xia.css");
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -10792,7 +10793,7 @@ header.masthead h1 {
     font-size: 2.25rem
 }
 
-@media (min-width:512px) {
+@media (min-width:375px) {
     header.masthead {
         height: 100vh;
         min-height: 40rem;
@@ -10882,7 +10883,7 @@ header.masthead h1 {
 
   @media (min-width: 512px) {
       #services{
-        background-color: #F04732;
+        background-color: #640000;
         color: white;
       }
   }
@@ -10897,7 +10898,16 @@ header.masthead h1 {
   }
   
   #oquefazemos{
-    background-image: url(/img/oquefazemos.png)
+    background-image: url(/img/oquefazemos.png);
+    background-repeat: repeat;
+
+  }
+
+  #oquefazemos p {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+
   }
 
   #menu-link{ 
